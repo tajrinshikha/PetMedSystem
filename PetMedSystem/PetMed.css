@@ -1,0 +1,112 @@
+﻿body {
+    background-color: lightskyblue;
+    color: dodgerblue;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+.login {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    position: relative;
+    width: 30%;
+    background-color: white;
+    border: solid;
+    border-block-color:dodgerblue;
+    
+}
+
+form {
+    padding: 40px;
+}
+
+#button {
+    background-color: deepskyblue;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    padding-inline:20px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+h5{
+    text-align:left;
+   
+}
+#replacement {
+    color: dodgerblue;
+}
+#create {
+    color: red;
+}
+.Password {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    position: relative;
+    width: 30%;
+    background-color: white;
+    border: solid;
+    border-block-color: dodgerblue;
+}
+.sign {
+   background-color: skyblue;
+}
+#prescription {
+    background-color: lightblue;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+#subscription {
+    margin: 20px;
+}
+#show {
+    margin: 20px;
+}
+#button1 {
+    margin: 20px;
+    background-color: deepskyblue;
+    padding: 10px;
+}
+.vet {
+    margin: 20px;
+    background-color: deepskyblue;
+    padding: 10px;
+}
