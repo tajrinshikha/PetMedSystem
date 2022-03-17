@@ -1,25 +1,13 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <title>Dispensing Department</title>
-    <link href="PetMed.css" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-</head>
-<body id="prescription">
-    <nav>
-        <ul>
-            <li><a href="Veterinarian.html">Veterinarian</a></li>
-            <li><a href="CustomerService.html">Customer Service</a></li>
-            <li><a href="Dispensing.html">Dispensing</a></li>
-            <li><a href="Login.html">Login</a></li>
-            <li><a href="Login.html">Sign Out</a></li>
-        </ul>
-    </nav>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Dispensing.aspx.cs" Inherits="PetMedSystem.WebForm2" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1>Dispensing Department</h1>
     <input type="text" id="subscription" name="subscription" value="" placeholder="search"><br />
     <label id="show" for="show">Show:</label>
-    <select name="show" id="show">
+    <select name="show" id="show1">
         <option value="5">5</option>
         <option value="10">10</option>
         <option value="15">15</option>
@@ -86,5 +74,5 @@
         </tr>
     </table>
     <button id="button1" type="submit" form="nameform" value="Submit">Update</button><br />
-</body>
-</html>
+
+</asp:Content>
